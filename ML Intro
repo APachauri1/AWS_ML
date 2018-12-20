@@ -1,0 +1,62 @@
+Amazon Machine Learning Scientist | Day 1
+
+Hey Guys,  Time for me to start with the new course. Currently i am following the Amazon's Machine Learning Scientist Course from AWS Educate. Here is what all I learnt today: 
+Day 1:
+ML Models are divided into 3 parts:
+a) Supervised Learning (Making a Prediction)- Predict future outcomes with help of training from historic data.
+b) Unsupervised Learning (Finding a hidden pattern) - Finding out the hidden patterns without giving any external input apart from the raw data
+c) Reinforcement Learning (Decision Making based on past rewards)- Takes decision based on the past rewards for its actions
+
+Supervised Learning: 
+a. Used to predict future outcomes based on the historic data. g Spam mail detection.
+b. An example could be Email Spam Filtration
+c. Machine works based on series of Question and Answer format, while analyzing historic data.
+
+Unsupervised Learning:
+a. An example would be Face Recognition; like friend photo suggestion in Facebook whence uploading any photo.
+b. It works by finding out Patterns, Similarities or anomalies in data.
+c. It works on observations and is able to find Structures and Relationships among input data.
+d. Talking about Facebook, when a photo is uploaded, it matches the Face and Features of the Friends in your list and suggests friends which can be tagged.
+e. Netflix, Amazon and e-commerce websites use the same method for segregation of items.
+Reinforcement Learning: 
+a. Takes decision based on the past rewards for its actions
+b. Usually it is used to increase the efficiency of tool / program There are 3 stages involved namely:  i. Decision 
+ii. Feedback
+iii. Learning
+e.g. In chess, the machine suggests a move (DECISION). It gets to know whether the decision was good/bad one (FEEDBACK). Learns from the feedback and takes the same as input for next iteration.
+
+ML Algorithms: There are several algorithms for Machine Learning out there. However, most of them can be categorized as:
+
+Supervised : Classification and Regression
+Unsupervised : Clustering and Association
+Classification Algorithms: 
+a. Yes/ No Prediction | 0/1 solution or output; these algorithms give a generic output which is in binary format.
+b. IT is generally used to classify something into a given class
+e.g. Spam filtering:
+
+Samples of Spam and Not Spam mails are fed to machine. 
+It analyzes the mails, finds out the words like lottery etc. and also the ones which have been flagged by the user. Now, system learns from it.
+Whenever a new mail comes in, it is able to separate them as Spam or Not Spam (Categorical Seperation)
+Naive Bayes algorithm is one such algorithm
+Regression Algorithm:
+a. Such algorithms are used to Predict a value based on past data.
+b. Difference is that , we are trying to Predict a VALUE ,whereas in the classification algorithms, we just segregate (separate) data; which is binary.
+c. In Regression, relation is created between different variables. i.e. Multiple variables are used (combined) to analyze and produce the output
+e.g. Temperature, wind and humidity : predicts whether rain will happen or not.
+Remember, output of regression is always Quantitative in nature, mostly based on the past data.
+
+Clustering Algorithm:
+a. Algorithm where a set of observations are divided into a subset, known as clusters.  b. Information inside these clusters are similar to each other and are decided based on some parameters.
+c. used in E-shopping, healthcare and Financial Services
+Classification and Regression have some prior knowledge, but in Clustering,all the knowledge is available from clusters only. e.g. Network Provider : Tower range, local geography and population data are given to system and it learns from it. Further it provides optimal locations for maximum connectivity d. K-Means is a popular clustering algorithm which clusters data into K Clusters
+
+Association Algorithm:
+a. identify patters of association between different variables and items.
+b. Market Basket analysis
+e.g. if you buy a set of books, systems learns and suggests similar kind of books next time you want to buy a book. 
+e.g. Similarly, in pharma, whenever a new drug is rolled out, prior to that, it is tested against which type of DNA it is sensitive to.
+
+So, above were my notes for the day 1 of my course. Do you have anything to add, please do share them with me.
+
+See you tomorrow!
+Happy Learning!
