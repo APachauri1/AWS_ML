@@ -1,0 +1,34 @@
+Machine Learning Scientist - Day 2
+
+https://medium.com/@ashish9853/ml-scientist-day-2-notes-regression-f7c112c81e8f
+
+Hey guys,
+Proceeding with the AWS course, there was not much about algorithms or models.  It talked about the products from AWS and their power.
+So I decided to take out some time and re-visit my Deep Learning NanoDegree course from Udacity and read more about Regression.
+Today’s notes are going to be on and around this topic.
+
+Regression:
+Regression in general terms means, ‘to return to a former or less developed state’.
+In Statistical Modelling, Regression Analysis is used for estimating the relations among the variables.
+In Machine Learning, it is the approach used to predict or forecast the outcomes based on the relations among the variables in the data-set.
+To remind, Regression is a type of Supervised Learning algorithm. 
+Rain prediction, House Pricing Prediction, Traffic Prediction etc are the common examples which are solved with the help of Regression.
+The Regression is majorly divided into 2 categories: Linear and Non-Linear Regression.
+Regression in simple mathematical format may be described as:
+A variable Y, which is the dependent (a.k.a.target) variable is related to the independent variable X (Linear Regression) or multiple variables X1, X2, X3,... ,Xn (Non Linear Regression) along with some unknown parameters C.
+The independent variables are also known as Regressors.
+
+A regression model relates Y to a function of X and c.
+						Y ~ f(X,c)
+Mathematically, 
+Linear Regression: 				Y = mX+c
+Where, Y is the linearly dependent variable linearly related to independent variable X and some weight c.
+					Total Cost = Fixed Cost + Variable Cost
+Multi - Linear Regression:  			Y = m1X1 + m2X2 + m3X3 +... mnXn + c; 
+Where Y is the linearly dependent variable related to independent variables X1,X2,X3,..., Xn and some weight c.
+Amount = (Principal x Rate) x Time +  Principal
+Non - Linear Regression:			Y = m1X13 + m2X2 + c
+Where Y is the non linearly dependent variable related to independent variables X1,X2,X3,..., Xn and some weight c. 
+			Area = π x radius2
+
+Happy Learning!
